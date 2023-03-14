@@ -3,12 +3,12 @@
 [ext_resource path="res://Rey del Salto.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Muriño.tscn" type="PackedScene" id=2]
 [ext_resource path="res://floor.tscn" type="PackedScene" id=3]
-[ext_resource path="res://kubbo.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Kubbo def.tscn" type="PackedScene" id=4]
 
 [node name="Longo dreita" type="Node2D"]
 
 [node name="Rey del Salto" parent="." instance=ExtResource( 1 )]
-position = Vector2( 531, 571 )
+position = Vector2( 584, 575 )
 
 [node name="Camera2D" type="Camera2D" parent="Rey del Salto"]
 current = true
@@ -39,4 +39,4 @@ position = Vector2( 1523, -296 )
 rotation = 1.5708
 
 [node name="StaticBody2D8" parent="." instance=ExtResource( 4 )]
-position = Vector2( 780, 345 )
+position = Vector2( 762, 395 )
